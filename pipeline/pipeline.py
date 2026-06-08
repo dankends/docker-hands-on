@@ -3,7 +3,7 @@ import pandas as pd
 
 print("arguments", sys.argv)
 
-df = pd.DataFrame({"A": [1, 2, 3], "B": [4, 5, 6]})
+df = pd.DataFrame({"A": [1, 2, 3], "c": [4, 5, 6]})
 print(df)
 
 day = int(sys.argv[1])
